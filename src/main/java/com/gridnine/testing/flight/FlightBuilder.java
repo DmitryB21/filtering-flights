@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class FlightBuilder {
 
-    static List<Flight> createFlights() {
+    public static List<Flight> createFlights() {
         LocalDateTime threeDaysFromNow = LocalDateTime.now().plusDays(3);
         return Arrays.asList(
                 //Обычный рейс продолжительностью два часа
