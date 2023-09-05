@@ -1,7 +1,5 @@
 package com.gridnine.testing.filter;
 
-import com.gridnine.testing.filter.FilterProperties;
-import com.gridnine.testing.filter.IFilter;
 import com.gridnine.testing.flight.Flight;
 
 import java.util.List;
