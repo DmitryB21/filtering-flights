@@ -1,0 +1,4 @@
+
+# Укажите используемые фильтры в любой комбинации разделяя их пробелом
+
+filters: FilterForDepartedInPast FilterForDepartsBeforeArrives FilterForMoreTwoHoursGroundTime
