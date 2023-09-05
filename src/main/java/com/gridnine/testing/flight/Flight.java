@@ -15,13 +15,14 @@ public class Flight {
         segments = segs;
     }
 
-    List<Segment> getSegments() {
+    public List<Segment> getSegments() {
         return segments;
     }
 
     @Override
     public String toString() {
-        return segments.stream().map(Object::toString)
+        return segments.stream()
+                .map(Object::toString)
                 .collect(Collectors.joining(" "));
     }
 
